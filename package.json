@@ -1,0 +1,21 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "portfolio built in react",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sumzulfikar"
+  },
+  "keywords": [
+    "frontend",
+    "portfolio",
+    "react",
+    "vite"
+  ],
+  "author": "Sumaiya Zulfikar",
+  "license": "MIT"
+}
