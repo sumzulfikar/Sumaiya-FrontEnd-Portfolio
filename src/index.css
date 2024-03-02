@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-*:root{
-  background-color: salmon;
+:root{
+    background-color: #164e63;
+    font-family: "Proxima Nova", system-ui, sans-serif;
+    color: aliceblue;
 }
