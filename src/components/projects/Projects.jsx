@@ -1,5 +1,6 @@
 import React from "react";
 import projectData from "../projects/projects.json"
+
 const Projects=()=>{
     return(
         <section>

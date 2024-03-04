@@ -1,5 +1,5 @@
 import React from "react";
-import assets from "../assets/my-pic.png"
+import assets from "/assets/my-pic.png"
 
 const Profile=()=>{
     return (

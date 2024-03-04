@@ -8,3 +8,8 @@
     font-family: "Proxima Nova", system-ui, sans-serif;
     color: aliceblue;
 }
+
+#proj-img{
+    max-width: 30%;
+    max-height: 30%;
+}
