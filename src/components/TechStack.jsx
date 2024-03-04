@@ -1,12 +1,12 @@
 import React from "react";
-import htmlDark from "../assets/techstack/dark/html5-Dark.png";
-import cssDark  from "../assets/techstack/dark/css-Dark.png";
-import jsDark from "../assets/techstack/dark/js-Dark.png";
-import nodeDark from "../assets/techstack/dark/nodejs-Dark.png";
-import twDark from "../assets/techstack/dark/tailwind-Dark.png";
-import bootstrapDark from "../assets/techstack/dark/bootstrap-Dark.png";
-import jqueryDark from "../assets/techstack/dark/jqueryDark.png"
-import reactDark from "../assets/techstack/dark/reactjsDark.png"
+import htmlDark from "/assets/techstack/dark/html5-Dark.png";
+import cssDark  from "/assets/techstack/dark/css-Dark.png";
+import jsDark from "/assets/techstack/dark/js-Dark.png";
+import nodeDark from "/assets/techstack/dark/nodejs-Dark.png";
+import twDark from "/assets/techstack/dark/tailwind-Dark.png";
+import bootstrapDark from "/assets/techstack/dark/bootstrap-Dark.png";
+import jqueryDark from "/assets/techstack/dark/jqueryDark.png"
+import reactDark from "/assets/techstack/dark/reactjsDark.png"
 
 const TechStack=()=>{
 return(

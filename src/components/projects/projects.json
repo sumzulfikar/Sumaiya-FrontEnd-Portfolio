@@ -5,38 +5,38 @@
     "myprojects":[
         {
             "id":"1",
-            "src":"../../assets/projects/crowdsurf.png",
+            "src":"assets/projects/crowdsurf.png",
             "title":"CrowdSurf",
             "repo":"https://github.com/TheFoodanese/CrowdSurf",
             "description":"CrowdSurf is a web-based platform designed to help users discover exciting events and purchase tickets conveniently based on their location.",
-            "madeby":["../../assets/techstack/dark/html5-Dark.png","../../assets/techstack/dark/js-Dark.png","../../assets/techstack/dark/material-uiDark.png","../../assets/techstack/dark/css-Dark.png","../../assets/techstack/dark/seatgeek.jpeg"],
+            "madeby":["assets/techstack/dark/html5-Dark.png","assets/techstack/dark/js-Dark.png","assets/techstack/dark/material-uiDark.png","assets/techstack/dark/css-Dark.png","assets/techstack/dark/seatgeek.jpeg"],
             "live":"https://thefoodanese.github.io/CrowdSurf/"
         },
         {
             "id":"2",
-            "src":"../../assets/projects/Teamprofilegenerator.png",
+            "src":"assets/projects/Teamprofilegenerator.png",
             "title":"Team Profile Generator",
             "repo":"https://github.com/sumzulfikar/Team-Profile-Generator",
             "description":"Enabling Manager users to generate a webpage that displays their team's basic information so that they have a quick access to the team member's emails and GitHub profiles.",
-            "madeby":["../../assets/techstack/dark/html5-Dark.png","../../assets/techstack/dark/nodejs-Dark.png","../../assets/techstack/dark/css-Dark.png","../../assets/techstack/dark/seatgeek.jpeg"],
+            "madeby":["assets/techstack/dark/html5-Dark.png","assets/techstack/dark/nodejs-Dark.png","assets/techstack/dark/css-Dark.png","assets/techstack/dark/seatgeek.jpeg"],
             "live":"https://www.youtube.com/watch?v=OgQVKetdgi4"
         },
         {
             "id":"3",
-            "src":"../../assets/projects/weather-dashboard.png",
+            "src":"assets/projects/weather-dashboard.png",
             "title":"Weather Dashboard",
             "repo":"https://github.com/sumzulfikar/Weather_Dashboard",
             "description":"Enabling travellers to search cities and getting 5 day weather forecast so that they can plan their trips accordingly.",
-            "madeby":["../../assets/techstack/dark/html5-Dark.png","../../assets/techstack/dark/bootstrap-Dark.png","../../assets/techstack/dark/css-Dark.png","../../assets/techstack/dark/openweather.jpeg"],
+            "madeby":["assets/techstack/dark/html5-Dark.png","assets/techstack/dark/bootstrap-Dark.png","assets/techstack/dark/css-Dark.png","assets/techstack/dark/openweather.jpeg"],
             "live":"https://sumzulfikar.github.io/Weather_Dashboard/"
         },
         {
             "id":"4",
-            "src":"../../assets/projects/leapyear.png",
+            "src":"assets/projects/leapyear.png",
             "title":"Learn about Leap Year",
             "repo":"https://github.com/sumzulfikar/Leap-Year",
             "description":"Welcome to Leap Year celebration! An intuitive tool to find out which years are Leap Years with a friendly leap year frog.",
-            "madeby":["../../assets/techstack/dark/html5-Dark.png","../../assets/techstack/dark/js-Dark.png","../../assets/techstack/dark/css-Dark.png","../../assets/techstack/dark/tailwind-Dark.png"],
+            "madeby":["assets/techstack/dark/html5-Dark.png","assets/techstack/dark/js-Dark.png","assets/techstack/dark/css-Dark.png","assets/techstack/dark/tailwind-Dark.png"],
             "live":"https://sumzulfikar.github.io/Leap-Year/"
         }
 
