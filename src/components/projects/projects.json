@@ -28,7 +28,7 @@
             "repo":"https://github.com/sumzulfikar/Weather_Dashboard",
             "description":"Enabling travellers to search cities and getting 5 day weather forecast so that they can plan their trips accordingly.",
             "madeby":["../../assets/techstack/dark/html5-Dark.png","../../assets/techstack/dark/bootstrap-Dark.png","../../assets/techstack/dark/css-Dark.png","../../assets/techstack/dark/openweather.jpeg"],
-            "live":"https://www.youtube.com/watch?v=OgQVKetdgi4"
+            "live":"https://sumzulfikar.github.io/Weather_Dashboard/"
         },
         {
             "id":"4",
