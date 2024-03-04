@@ -12,7 +12,7 @@ const TechStack=()=>{
 return(
 
 
-    <section classNameName="bg-white  py-24 px-4 lg:px-16"> 
+    <section className="bg-white  py-24 px-4 lg:px-16"> 
     <div className="container mx-auto px-[12px] md:px-24 xl:px-12 max-w-[1300px] nanum2">
         <h1 className="text-center text-5xl pb-12">Tech Stack</h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-28 lg:gap-y-16">
