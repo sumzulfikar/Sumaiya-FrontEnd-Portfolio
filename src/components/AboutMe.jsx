@@ -1,5 +1,6 @@
 import React from "react";
-
+import assets from "/assets/my-pic.png"
+import Resume from"./Resume";
 const AboutMe=()=>{
     const openLinkedin=()=>{
         const liUrl="https://www.linkedin.com/in/sumaiya-zulfikar/";
@@ -12,18 +13,44 @@ const AboutMe=()=>{
 
 return(
     <>
-    <div className="md:7/12 lg:w-6/12">
-        <h2 className="text-2xl  font-bold md:text-4xl">About Me</h2>
-        <p className="mt-6 ">Placing user need at the heart of everything that I do, 
-        I have applied Agile, Scrum and Lean Principles to help teams deliver project,
-         products and goals on time, to scope and within budget. 
-         Now I have found a new passion to build products myself! 
-         I am finding out how much I love building things. This is fun. Enjoying the Bootcamp!</p>
-     </div>
-     <button type="btn btn-primary" onClick={openLinkedin}>Linkedin</button>
-     <button type="btn btn-primary" onClick={openGithub}>Github</button>
-     
-     </>
+    <div className="mx-4 flex flex-row  gap-7">
+        <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md basis-1/2">
+            <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
+                <img src={assets} alt="profile-picture" />
+            </div>
+            <div className="p-6 text-center">
+                <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                Sumaiya Zulfikar
+            </h4>
+            <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
+             Front End Developer
+             </p>
+            </div>
+        </div>
+        <div>
+             <h2 className=" text-center text-5xl  font-bold py-2 basis-1/2">About Me</h2>
+             <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
+             <p className="text-wrap py-2 px-5">Placing user need at the heart of everything that I do, I am <em>embarking</em> into a new and exciting journey as a Front-End Developer to build products that customers love. <br/>
+             I have prior experience in leading organisations and teams to higher performance by increasing business agility capability in building impactful and valuable products that drive innovation, growth, revenue, and overall performance of the business. <br/>
+             <br />Now I have found a new passion to build products myself! 
+             Looking to bring in user focused approach to problem solving and developing solutions that meet customer and market needs. 
+           
+        <br/>
+        <br/>
+        Get in touch!
+        </p>
+        <button className="p-6  py-2 px-5 bg-gray-900 text-white rounded mx-5" onClick={openLinkedin}>Linkedin</button> <span></span>
+        <button className="p-6  py-2 px-5 bg-gray-900 text-white rounded mx-5 space-x-1.5 " onClick={openGithub}>Github</button><span></span>
+        <Resume/>
+        </div>
+             </div>
+           
+        
+    </div>
+   
+       
+                   
+    </>
 );
 
 
