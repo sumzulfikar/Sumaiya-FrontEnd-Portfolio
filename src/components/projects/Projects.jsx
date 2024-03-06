@@ -3,11 +3,12 @@ import projectData from "../projects/projects.json"
 
 const Projects=()=>{
     return(
-        <section>
-            <h2>My Portfolio</h2>
-            {projectData.myprojects.map((project)=>(
-
-            <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg">
+        <section className="py-24 px-4 lg:px-16">
+            <h2 className="text-center text-5xl  font-bold py-2">My Portfolio</h2>
+           
+          <div className="flex flex-row flex-wrap justify-center py-2 px-2">
+          {projectData.myprojects.map((project)=>(
+            <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg py-2 px-2">
                 <img className="w-full" src={project.src} alt={project.title} id="proj-img"/>
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2" id="pro-title">{project.title}</div>
@@ -16,7 +17,7 @@ const Projects=()=>{
                             </p>
                         </div>
                     <div className="px-6 pt-4 pb-2">
-                        <div className="flex flex-wrap"><h4>Tech used</h4>
+                        <div className="flex flex-wrap"><h3>Built with:</h3>
                             {project.madeby.map((techtype,index)=>
                             <img key={index} src= {techtype} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" id="proj-techstack"alt={`Made by ${project.title}`}/>
                             )}
@@ -25,15 +26,15 @@ const Projects=()=>{
                         
                  
                      </div>
-                     <div>
-                        <a href={project.repo}>gitHub</a>
-                     </div>
-                     <div><a href={project.live}>Url</a></div>
-            </div>
 
-            )
-            )}
-           
+                     
+                    <a href={project.repo} className="px-3 md:px-4 py-1 bg-black text-white rounded space-x-11">GitHub Repo</a>
+                     <span> </span>
+                     <span> </span>
+                     <span> </span>
+                    <a href={project.live} className="px-3 md:px-4 py-1 bg-gray-900 text-white rounded space-x-11">Live Url</a></div>
+                    ) )}
+           </div>
         </section>
     );
 
