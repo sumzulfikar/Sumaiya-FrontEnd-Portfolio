@@ -1,12 +1,19 @@
 # Sumaiya's Developer Portfolio
 ## Description
-My personal portfolio which features some of my github projects as well as my resume and technical skills.
+My personal ![portfolio](https://sumzulfikar.github.io/Sumaiya-FrontEnd-Portfolio/) which features some of my github projects as well as my resume and technical skills. 
 ## Techonlogy Used
-- React 
-- TailwindCSS ![tailwind-Light](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/a7415ab8-0ecd-4964-9410-bcd540dbacd9)
-- Vanilla JS
+![reactjsDark](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/8976b1d3-dd2e-4e88-8e69-38089c395ae2)
+![Static Badge](https://img.shields.io/badge/React-blue)
+![tailwind-Dark](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/1370f060-28b0-4824-9546-f677b3d35869)
+![Static Badge](https://img.shields.io/badge/Tailwind%20CSS-%20cyan)
+![js-Dark](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/20d5218b-c75e-4eaf-a0e5-080c13f44c78)
+![Static Badge](https://img.shields.io/badge/JavaScript-black)
 
+### Screenshot of my profile
 
-## Screenshot
+![Screenshot of Sumaiya's profile](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/8a5d8ba4-500c-4908-a53a-0f9a37ea8463)
 
-
+### Installation and Setup Instructions
+- Installation: npm install
+- In the project directory, you can run: npm start
+- Runs the app in the development mode.
