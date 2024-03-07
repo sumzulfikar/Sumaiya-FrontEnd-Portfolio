@@ -18,3 +18,11 @@ My personal [portfolio](https://65ea1beea034df5b9ec7ef61--sumaiyazulfikar.netlif
 - Installation: npm install
 - In the project directory, you can run: npm start
 - Runs the app in the development mode.
+- NPM packages used for this protfolio:
+      vite@4.5.2
+      headlessui/react@1.7.18
+      react-router-dom@6.22.2
+      react-dom@18.2.19
+      react@18.2.61
+      tailwindcss@3.4.1
+
