@@ -12,3 +12,8 @@ My personal ![portfolio](https://sumzulfikar.github.io/Sumaiya-FrontEnd-Portfoli
 ### Screenshot of my profile
 
 ![Screenshot of Sumaiya's profile](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/8a5d8ba4-500c-4908-a53a-0f9a37ea8463)
+
+### Installation and Setup Instructions
+- Installation: npm install
+- In the project directory, you can run: npm start
+- Runs the app in the development mode.
