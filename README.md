@@ -1,6 +1,6 @@
 # Sumaiya's Developer Portfolio
 ## Description
-My personal ![portfolio](https://65ea1beea034df5b9ec7ef61--sumaiyazulfikar.netlify.app/) which features some of my github projects as well as my resume and technical skills. 
+My personal [portfolio](https://65ea1beea034df5b9ec7ef61--sumaiyazulfikar.netlify.app/) which features some of my github projects as well as my resume and technical skills. 
 ## Techonlogy Used
 ![reactjsDark](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/8976b1d3-dd2e-4e88-8e69-38089c395ae2)
 ![Static Badge](https://img.shields.io/badge/React-blue)
@@ -11,7 +11,8 @@ My personal ![portfolio](https://65ea1beea034df5b9ec7ef61--sumaiyazulfikar.netli
 
 ### Screenshot of my profile
 
-![Screenshot of Sumaiya's profile](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/8a5d8ba4-500c-4908-a53a-0f9a37ea8463)
+![Sumaiya's Developer Portfolio Screenshot](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/e0207744-3ef7-4954-a481-0abf37ac37ee)
+
 
 ### Installation and Setup Instructions
 - Installation: npm install
