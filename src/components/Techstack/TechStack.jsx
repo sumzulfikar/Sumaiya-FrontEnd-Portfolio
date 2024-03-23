@@ -1,6 +1,6 @@
 import data from "./techstack.json"
 import { useEffect, useState } from "react";
-import TechCard from "./Techcard";
+import TechCard from "./Techcard.jsx";
 const TechStack = () => {
     const [myskills, setMySkill] = useState([]);
 
