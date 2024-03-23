@@ -4,7 +4,7 @@
             "id": "1",
             "src": "assets/projects/pathway.png",
             "title": "Pathway",
-            "repo": "https://github.com/RexActor/BootCamp-Project2",
+            "repo": "https://github.com/sumzulfikar/Pathway-Application",
             "description": "Introducing Pathway, your ultimate companion in the quest for your dream career. With a user-friendly interface and powerful search capabilities, Pathway makes finding your next job a breeze. Explore thousands of job listings from top companies, tailored to your preferences and skills. Our intuitive tools allow you to easily apply for jobs, track your applications, and manage your job search effortlessly.",
             "madeby": [
                 "assets/techstack/dark/rreactjsDark.png",
@@ -12,18 +12,18 @@
                 "assets/techstack/dark/tailwind-Dark.png",
                 "assets/techstack/dark/nodejs-Dark.png"
             ],
-            "live": "https://jobpathway.netlify.app/"
+            "live": "https://pathway-app.netlify.app/"
         },
         {
             "id": "2",
             "src": "assets/projects/crowdsurf.png",
             "title": "CrowdSurf",
-            "repo": "https://github.com/TheFoodanese/CrowdSurf",
+            "repo": "https://github.com/sumzulfikar/CrowdSurf",
             "description": "CrowdSurf is a web-based platform designed to help users discover exciting events and purchase tickets conveniently based on their location.",
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
                 "assets/techstack/dark/js-Dark.png",
-                "assets/techstack/dark/material-uiDark.png",
+                "assets/techstack/dark/materialize-css-logo.png",
                 "assets/techstack/dark/css-Dark.png",
                 "assets/techstack/dark/seatgeek.jpeg"
             ],
