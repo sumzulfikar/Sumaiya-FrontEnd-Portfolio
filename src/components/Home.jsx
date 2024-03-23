@@ -1,12 +1,9 @@
 import React from "react";
+import Contact from './Contact.jsx';
+import AboutMe from './AboutMe.jsx';
+import TechStack from './Techstack/TechStack.jsx';
+import Projects from './projects/Projects.jsx';
 
-import Navbar from './Navbar';
-import Mission from './Mission';
-import Contact from './Contact';
-import AboutMe from './AboutMe';
-import TechStack from './Techstack/TechStack';
-import Projects from './projects/Projects';
-import Footer from './Footer';
 
 function Home() {
 
