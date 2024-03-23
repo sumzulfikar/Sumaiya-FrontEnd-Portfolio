@@ -7,7 +7,7 @@
             "repo": "https://github.com/sumzulfikar/Pathway-Application",
             "description": "Introducing Pathway, your ultimate companion in the quest for your dream career. With a user-friendly interface and powerful search capabilities, Pathway makes finding your next job a breeze. Explore thousands of job listings from top companies, tailored to your preferences and skills. Our intuitive tools allow you to easily apply for jobs, track your applications, and manage your job search effortlessly.",
             "madeby": [
-                "assets/techstack/dark/rreactjsDark.png",
+                "assets/techstack/dark/reactjsDark.png",
                 "assets/techstack/dark/js-Dark.png",
                 "assets/techstack/dark/tailwind-Dark.png",
                 "assets/techstack/dark/nodejs-Dark.png"
