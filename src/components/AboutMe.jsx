@@ -25,11 +25,14 @@ const AboutMe = () => {
                         <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text font-sans text-base font-medium leading-relaxed text-transparent antialiased">
                             Front End Developer
                         </p>
+                        <button className="p-4  mb-4 bg-gray-900 text-white rounded mx-5 space-x-1.5 " onClick={openGithub}>Github</button>
+                        <Resume />
                     </div>
                 </div>
                 <div>
-                    <h2 className=" text-center text-5xl  font-bold py-2 basis-1/2">About Me</h2>
+
                     <div className="mt-4 rounded-xl bg-white shadow-lg">
+                        <h2 className=" text-center text-3xl  font-bold py-2 basis-1/2">About Me</h2>
                         <p className="text-wrap p-5">Placing user need at the heart of everything that I do, I am <em>embarking</em> into a new and exciting journey as a Front-End Developer to build products that customers love. <br />
                             I have prior experience in leading organisations and teams to higher performance by increasing business agility capability in building impactful and valuable products that drive innovation, growth, revenue, and overall performance of the business. <br />
                             <br />Now I have found a new passion to build products myself!
@@ -39,9 +42,9 @@ const AboutMe = () => {
                             <br />
                             Get in touch!
                         </p>
-                        <button className="p-6  py-2 px-5 bg-gray-900 text-white rounded mx-5" onClick={openLinkedin}>Linkedin</button> <span></span>
-                        <button className="p-6  py-2 px-5 bg-gray-900 text-white rounded mx-5 space-x-1.5 " onClick={openGithub}>Github</button><span></span>
-                        <Resume />
+                        <button className="p-4   bg-gray-900 text-white rounded mx-5" onClick={openLinkedin}>Linkedin</button>
+
+
                     </div>
                 </div>
 
