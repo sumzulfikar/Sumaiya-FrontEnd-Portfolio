@@ -1,6 +1,6 @@
-# Sumaiya's Developer Portfolio
+# Sumaiya's Portfolio
 ## Description
-My personal [portfolio](https://65ea1beea034df5b9ec7ef61--sumaiyazulfikar.netlify.app/) which features some of my github projects as well as my resume and technical skills. 
+My personal [portfolio](sumaiyaz.co.uk) which features some of my github projects as well as my resume and technical skills. 
 ## Techonlogy Used
 ![reactjsDark](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/8976b1d3-dd2e-4e88-8e69-38089c395ae2)
 ![Static Badge](https://img.shields.io/badge/React-blue)
@@ -11,7 +11,8 @@ My personal [portfolio](https://65ea1beea034df5b9ec7ef61--sumaiyazulfikar.netlif
 
 ### Screenshot of my profile
 
-![Sumaiya's Developer Portfolio Screenshot](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/e0207744-3ef7-4954-a481-0abf37ac37ee)
+![Sumaiya's Portfolio](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/07bb9061-4b2c-4592-8d22-d505d9d59ea9)
+
 
 
 ### Installation and Setup Instructions
