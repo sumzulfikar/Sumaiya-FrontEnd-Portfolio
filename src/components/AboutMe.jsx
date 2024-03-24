@@ -13,8 +13,8 @@ const AboutMe = () => {
 
     return (
         <section className="component mx-1 md:mx-10 ">
-            <div className="flex flex-row  flex-wrap gap-4 ">
-                <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md basis-1/2">
+            <div className="flex flex-row  max-sm:flex-wrap gap-4 ">
+                <div className="relative flex flex-col col-span-2 rounded-xl bg-white bg-clip-border text-gray-700 shadow-md basis-1/2">
                     <div className="relative mx-4 mt-4  rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
                         <img src={assets} alt="profile-picture" className=" flex justify-center rounded-full" />
                     </div>
@@ -31,7 +31,7 @@ const AboutMe = () => {
                 </div>
                 <div>
 
-                    <div className="mt-4 rounded-xl bg-white shadow-lg">
+                    <div className="mt-4 rounded-xl col-span-8 bg-white shadow-lg">
                         <h2 className=" text-center text-3xl  font-bold py-2 basis-1/2">About Me</h2>
                         <p className="text-wrap p-5">Placing user need at the heart of everything that I do, I am <em>embarking</em> into a new and exciting journey as a Front-End Developer to build products that customers love. <br />
                             I have prior experience in leading organisations and teams to higher performance by increasing business agility capability in building impactful and valuable products that drive innovation, growth, revenue, and overall performance of the business. <br />
