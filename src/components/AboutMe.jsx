@@ -33,11 +33,13 @@ const AboutMe = () => {
 
                     <div className="mt-4 rounded-xl col-span-8 bg-white shadow-lg">
                         <h2 className=" text-center text-3xl  font-bold py-2 basis-1/2">About Me</h2>
-                        <p className="text-wrap p-5">Placing user need at the heart of everything that I do, I am <em>embarking</em> into a new and exciting journey as a Front-End Developer to build products that customers love. <br />
-                            I have prior experience in leading organisations and teams to higher performance by increasing business agility capability in building impactful and valuable products that drive innovation, growth, revenue, and overall performance of the business. <br />
-                            <br />Now I have found a new passion to build products myself!
-                            Looking to bring in user focused approach to problem solving and developing solutions that meet customer and market needs.
-
+                        <p className="text-wrap p-5"> <p className=" font-semibold">Putting User Need First</p> Embarking on an exciting journey as a Front-End Developer to build products that customers love.
+                            With a track record of leading teams to peak performance and driving business agility, I am now diving into a new adventure.
+                            <br />
+                            <p className=" font-semibold">Empowering Users, Captivating Market</p>
+                            I am passionate in crafting solutions that address real challenges and align with market demand.
+                            <p className=" font-semibold">Innovate with Impact</p>
+                            Join me in solving problems with user-centric approach, leveraging the latest  tech stack for product development.
                             <br />
                             <br />
                             Get in touch!
