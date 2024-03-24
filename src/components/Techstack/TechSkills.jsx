@@ -1,7 +1,7 @@
 import data from "./techstack.json"
 import { useEffect, useState } from "react";
-import TechCard from "./Techcard.jsx";
-const TechStack = () => {
+import TechCard from "../TechCard"
+const TechSkills = () => {
     const [myskills, setMySkill] = useState([]);
 
     useEffect(() => {
@@ -24,5 +24,5 @@ const TechStack = () => {
     );
 }
 
-export default TechStack;
+export default TechSkills;
 

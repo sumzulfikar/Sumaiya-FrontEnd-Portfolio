@@ -1,8 +1,8 @@
 import React from "react";
 import Contact from './Contact.jsx';
-import AboutMe from './AboutMe.jsx';
-import TechStack from './Techstack/TechStack.jsx';
-import Projects from './projects/Projects.jsx';
+import AboutMe from './AboutMe';
+import TechSkills from './TechStack/TechSkills.jsx';
+import Projects from './projects/Projects';
 
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
         <>
 
             <AboutMe />
-            <TechStack />
+            <TechSkills />
             <Projects />
             <Contact />
 
