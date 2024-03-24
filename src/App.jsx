@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Mission from './components/Mission';
 import Contact from './components/Contact';
 import AboutMe from './components/AboutMe';
-import TechSkills from './components/TechStack/TechSkills';
+import TechSkills from './components/skills/TechSkills';
 import Projects from './components/projects/Projects';
 import Footer from './components/Footer';
 import Home from './components/Home';
