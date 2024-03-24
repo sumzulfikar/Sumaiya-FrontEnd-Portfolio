@@ -13,8 +13,8 @@ const AboutMe = () => {
 
     return (
         <section className="component mx-1 md:mx-10 ">
-            <div className="flex flex-row  gap-4">
-                <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md basis-1/2">
+            <div className="flex flex-row  flex-wrap gap-4 ">
+                <div className="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md basis-1/2">
                     <div className="relative mx-4 mt-4  rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
                         <img src={assets} alt="profile-picture" className=" flex justify-center rounded-full" />
                     </div>
