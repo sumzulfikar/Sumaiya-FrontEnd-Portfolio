@@ -11,7 +11,7 @@ My personal [portfolio](https://65ea1beea034df5b9ec7ef61--sumaiyazulfikar.netlif
 
 ### Screenshot of my profile
 
-![Sumaiya's Developer Portfolio Screenshot](https://github.com/sumzulfikar/Sumaiya-FrontEnd-Portfolio/assets/150956638/e0207744-3ef7-4954-a481-0abf37ac37ee)
+![Sumaiya's Developer Portfolio Screenshot](sumaiyaz.co.uk)
 
 
 ### Installation and Setup Instructions
