@@ -3,7 +3,7 @@ import projectData from "../projects/projects.json"
 
 const Projects = () => {
     return (
-        <section className="py-4 px-4 lg:px-16">
+        <section className="component bg-white mx-1 md:mx-10 ">
             <h2 className="text-center text-3xl   font-bold py-2">My Portfolio</h2>
 
             <div className="flex flex-row flex-wrap justify-center py-2 px-2 gap-4">
