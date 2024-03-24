@@ -1,4 +1,4 @@
-# Sumaiya's Developer Portfolio
+# Sumaiya's Portfolio
 ## Description
 My personal [portfolio](sumaiyaz.co.uk) which features some of my github projects as well as my resume and technical skills. 
 ## Techonlogy Used
