@@ -69,6 +69,19 @@
                 "assets/techstack/dark/tailwind-Dark.png"
             ],
             "live": "https://sumzulfikar.github.io/Leap-Year/"
+        },
+        {
+            "id": "6",
+            "src": "assets/projects/workdaysheduler.png",
+            "title": "Work Day Scheduler",
+            "repo": "https://github.com/sumzulfikar/Work-Day-Scheduler",
+            "description": "An interactive task scheduler for employees during business hours so that they can manage their day effectively.",
+            "madeby": [
+                "assets/techstack/dark/html5-Dark.png",
+                "assets/techstack/dark/jqueryDark.png",
+                "assets/techstack/dark/css-Dark.png"
+            ],
+            "live": "https://sumzulfikar.github.io/Work-Day-Scheduler/"
         }
     ]
 }
