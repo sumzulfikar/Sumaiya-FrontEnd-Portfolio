@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "/assets/resume/SZulfikar_CV_FrontEnd_24.pdf"
+import cv from "/assets/resume/SZulfikar_CV_FrontEnd.pdf"
 const Resume = () => {
     let aLink = React.useRef(null);
     const onBtnClick = () => {
@@ -9,7 +9,7 @@ const Resume = () => {
                 const fileUrl = window.URL.createObjectURL(blob);
                 aLink = document.createElement("a"),
                     aLink.href = fileUrl;
-                aLink.download = "SZulfikar_CV_FrontEnd_24.pdf";
+                aLink.download = "SZulfikar_CV_FrontEnd.pdf";
                 aLink.click();
             })
 
