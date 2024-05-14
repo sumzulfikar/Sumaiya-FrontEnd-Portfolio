@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "/src/index.css"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -9,10 +9,16 @@ import TechSkills from './components/skills/TechSkills';
 import Projects from './components/projects/Projects';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import ReactGA from 'react-ga';
 
-
+const gaTracking = "G-5J66D3HVRR";
+ReactGA.initialize(gaTracking);
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search)
+  }, []);
 
   return (
     <Router>
@@ -33,4 +39,4 @@ function App() {
 
 }
 
-export default App
+export default App;

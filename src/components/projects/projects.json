@@ -2,10 +2,24 @@
     "myprojects": [
         {
             "id": "1",
+            "src": "assets/projects/digitalservices.PNG",
+            "title": "Digital Services",
+            "repo": "https://github.com/onirbanltd/corporate-site",
+            "description": "Migrate company website from a legacy Wordpress site to a modern platform built with Next.js and hosted on Vercel.",
+            "madeby": [
+                "assets/techstack/dark/nextjs-Light.png",
+                "assets/techstack/dark/typescript-Dark.png",
+                "assets/techstack/dark/tailwind-Dark.png",
+                "assets/techstack/dark/nodejs-Dark.png"
+            ],
+            "live": "https://onirban.co.uk/"
+        },
+        {
+            "id": "2",
             "src": "assets/projects/pathway.png",
-            "title": "Pathway",
+            "title": "Job Search",
             "repo": "https://github.com/sumzulfikar/Pathway-Application",
-            "description": "Introducing Pathway, your ultimate companion in the quest for your dream career. With a user-friendly interface and powerful search capabilities, Pathway makes finding your next job a breeze. Explore thousands of job listings from top companies, tailored to your preferences and skills. Our intuitive tools allow you to easily apply for jobs, track your applications, and manage your job search effortlessly.",
+            "description": "Build a user-friendly Job search interface to enable users to search job listings and calculate travel distance with ease.",
             "madeby": [
                 "assets/techstack/dark/reactjsDark.png",
                 "assets/techstack/dark/js-Dark.png",
@@ -15,11 +29,11 @@
             "live": "https://pathway-app.netlify.app/"
         },
         {
-            "id": "2",
+            "id": "3",
             "src": "assets/projects/crowdsurf.png",
-            "title": "CrowdSurf",
+            "title": "Event Search",
             "repo": "https://github.com/sumzulfikar/CrowdSurf",
-            "description": "CrowdSurf is a web-based platform designed to help users discover exciting events and purchase tickets conveniently based on their location.",
+            "description": " Build a web-based platform designed to help users discover exciting events and purchase tickets conveniently based on their location.",
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
                 "assets/techstack/dark/js-Dark.png",
@@ -27,27 +41,14 @@
                 "assets/techstack/dark/css-Dark.png",
                 "assets/techstack/dark/seatgeek.jpeg"
             ],
-            "live": "https://sumzulfikar.github.io/CrowdSurf//"
+            "live": "https://sumzulfikar.github.io/CrowdSurf"
         },
         {
-            "id": "3",
-            "src": "assets/projects/Teamprofilegenerator.png",
-            "title": "Team Profile Generator",
-            "repo": "https://github.com/sumzulfikar/Team-Profile-Generator",
-            "description": "Enabling Manager users to generate a webpage that displays their team's basic information so that they have a quick access to the team member's emails and GitHub profiles.",
-            "madeby": [
-                "assets/techstack/dark/html5-Dark.png",
-                "assets/techstack/dark/nodejs-Dark.png",
-                "assets/techstack/dark/css-Dark.png"
-            ],
-            "live": "https://www.youtube.com/watch?v=OgQVKetdgi4"
-        },
-        {
-            "id": "4",
+            "id": "5",
             "src": "assets/projects/weather-dashboard.png",
             "title": "Weather Dashboard",
             "repo": "https://github.com/sumzulfikar/Weather_Dashboard",
-            "description": "Enabling travellers to search cities and getting 5 day weather forecast so that they can plan their trips accordingly.",
+            "description": " Enabling travellers to search 5 day weather forecast for cities so that they can plan their trips accordingly.",
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
                 "assets/techstack/dark/bootstrap-Dark.png",
@@ -57,21 +58,7 @@
             "live": "https://sumzulfikar.github.io/Weather_Dashboard/"
         },
         {
-            "id": "5",
-            "src": "assets/projects/leapyear.png",
-            "title": "Learn about Leap Year",
-            "repo": "https://github.com/sumzulfikar/Leap-Year",
-            "description": "Welcome to Leap Year celebration! An intuitive tool to find out which years are Leap Years with a friendly leap year frog.",
-            "madeby": [
-                "assets/techstack/dark/html5-Dark.png",
-                "assets/techstack/dark/js-Dark.png",
-                "assets/techstack/dark/css-Dark.png",
-                "assets/techstack/dark/tailwind-Dark.png"
-            ],
-            "live": "https://sumzulfikar.github.io/Leap-Year/"
-        },
-        {
-            "id": "6",
+            "id": "7",
             "src": "assets/projects/workdaysheduler.png",
             "title": "Work Day Scheduler",
             "repo": "https://github.com/sumzulfikar/Work-Day-Scheduler",
@@ -82,6 +69,20 @@
                 "assets/techstack/dark/css-Dark.png"
             ],
             "live": "https://sumzulfikar.github.io/Work-Day-Scheduler/"
+        },
+        {
+            "id": "6",
+            "src": "assets/projects/leapyear.png",
+            "title": "Learn about Leap Year",
+            "repo": "https://github.com/sumzulfikar/Leap-Year",
+            "description": "An fun tool to find out which years are Leap Years with a friendly leap year frog.",
+            "madeby": [
+                "assets/techstack/dark/html5-Dark.png",
+                "assets/techstack/dark/js-Dark.png",
+                "assets/techstack/dark/css-Dark.png",
+                "assets/techstack/dark/tailwind-Dark.png"
+            ],
+            "live": "https://sumzulfikar.github.io/Leap-Year/"
         }
     ]
 }
