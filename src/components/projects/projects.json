@@ -3,28 +3,57 @@
         {
             "id": "1",
             "src": "assets/projects/digitalservices.PNG",
-            "title": "Digital Services",
+            "title": "Website Migration - Modernisation & Performance Boost",
             "repo": "https://github.com/onirbanltd/corporate-site",
-            "description": "Migrate company website from a legacy Wordpress site to a modern platform built with Next.js and hosted on Vercel.",
+            "userstory": "As a digital service provider, our current website isn't generating enough leads. We need to improve our online presence and make it easier for potential customers to find us. We'd like your help in optimizing our website for search engines and implementing strategies to capture leads more effectively.",
+            "solution": [
+                "Conduct a website audit to analyze user experience, search engine optimization, and identify areas for improvement.",
+                "Develop a modern website design that is visually appealing, user-friendly, and responsive across all devices.",
+                "Upgrade the company website from outdated legacy WordPress to a modern platform built with Next.js for improved performance boost and hosted on Vercel for seamless deployment and scalability."
+            ],
             "madeby": [
                 "assets/techstack/dark/nextjs-Light.png",
                 "assets/techstack/dark/typescript-Dark.png",
                 "assets/techstack/dark/tailwind-Dark.png",
                 "assets/techstack/dark/nodejs-Dark.png"
             ],
+            "language": [
+                "NEXT.js",
+                "TypeScript",
+                "Tailwind",
+                "Node.js"
+            ],
+            "API": [
+                ""
+            ],
             "live": "https://onirban.co.uk/"
         },
         {
             "id": "2",
             "src": "assets/projects/pathway.png",
-            "title": "Job Search",
+            "title": "User-Friendly Job Search- Find Your Perfect Fit",
             "repo": "https://github.com/sumzulfikar/Pathway-Application",
-            "description": "Build a user-friendly Job search interface to enable users to search job listings and calculate travel distance with ease.",
+            "userstory": "As a jobseeker, I want a comprehensive job search platform that allows me to discover and apply for suitable positions efficiently. This platform should provide all the necessary information in one place, streamlining my job search process.",
+            "solution": [
+                "Built a mobile-friendly job search application integrating Adzuna, Google Map and Here APIs to list relevant jobs, salary insights, and a location map - all within an intuitive interface."
+            ],
             "madeby": [
                 "assets/techstack/dark/reactjsDark.png",
                 "assets/techstack/dark/js-Dark.png",
                 "assets/techstack/dark/tailwind-Dark.png",
                 "assets/techstack/dark/nodejs-Dark.png"
+            ],
+            "language": [
+                "React",
+                "JavaScript",
+                "Tailwind",
+                "Node.js"
+            ],
+            "API": [
+                "Adzuna",
+                "Google Map",
+                "Here",
+                "Chart.js"
             ],
             "live": "https://pathway-app.netlify.app/"
         },
@@ -33,13 +62,26 @@
             "src": "assets/projects/crowdsurf.png",
             "title": "Event Search",
             "repo": "https://github.com/sumzulfikar/CrowdSurf",
-            "description": " Build a web-based platform designed to help users discover exciting events and purchase tickets conveniently based on their location.",
+            "userstory": "As an event-goer I want to be able to search for events based on my interests and preferences.",
+            "solution": [
+                " Built a web-based platform designed to help users discover exciting events and purchase tickets conveniently based on their location, distance and interest.",
+                ""
+            ],
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
                 "assets/techstack/dark/js-Dark.png",
                 "assets/techstack/dark/materialize-css-logo.png",
                 "assets/techstack/dark/css-Dark.png",
                 "assets/techstack/dark/seatgeek.jpeg"
+            ],
+            "language": [
+                "HTML",
+                "JavaScript",
+                "Materialize",
+                "CSS"
+            ],
+            "API": [
+                "SeatGeek"
             ],
             "live": "https://sumzulfikar.github.io/CrowdSurf"
         },
@@ -48,12 +90,21 @@
             "src": "assets/projects/weather-dashboard.png",
             "title": "Weather Dashboard",
             "repo": "https://github.com/sumzulfikar/Weather_Dashboard",
-            "description": " Enabling travellers to search 5 day weather forecast for cities so that they can plan their trips accordingly.",
+            "userstory": "As a traveller, I want to be able to search for the 5-day weather forecast for cities so that I can plan my trips accordingly.",
+            "solution": " As a traveller I want to be able to  search 5 day weather forecast for cities so that I can plan my trips accordingly.",
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
                 "assets/techstack/dark/bootstrap-Dark.png",
                 "assets/techstack/dark/css-Dark.png",
                 "assets/techstack/dark/openweather.jpeg"
+            ],
+            "language": [
+                "HTML",
+                "JavaScript",
+                "CSS"
+            ],
+            "API": [
+                "OpenWeather"
             ],
             "live": "https://sumzulfikar.github.io/Weather_Dashboard/"
         },
@@ -62,11 +113,20 @@
             "src": "assets/projects/workdaysheduler.png",
             "title": "Work Day Scheduler",
             "repo": "https://github.com/sumzulfikar/Work-Day-Scheduler",
-            "description": "An interactive task scheduler for employees during business hours so that they can manage their day effectively.",
+            "userstory": "As an employee, I want to use an interactive task scheduler during business hours to help me organize my workload and prioritise tasks effectively, ultimately increasing my productivity.",
+            "solution": "An interactive task scheduler for employees during business hours so that they can manage their day effectively.",
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
                 "assets/techstack/dark/jqueryDark.png",
                 "assets/techstack/dark/css-Dark.png"
+            ],
+            "language": [
+                "HTML",
+                "jQuery",
+                "CSS"
+            ],
+            "API": [
+                ""
             ],
             "live": "https://sumzulfikar.github.io/Work-Day-Scheduler/"
         },
@@ -75,12 +135,21 @@
             "src": "assets/projects/leapyear.png",
             "title": "Learn about Leap Year",
             "repo": "https://github.com/sumzulfikar/Leap-Year",
-            "description": "An fun tool to find out which years are Leap Years with a friendly leap year frog.",
+            "userstory": "As a student, I want to learn about Leap Years and an interactive tool to easily determine whether a given year is a leap year",
+            "solution": "An fun tool to find out which years are Leap Years with a friendly leap year frog.",
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
                 "assets/techstack/dark/js-Dark.png",
                 "assets/techstack/dark/css-Dark.png",
                 "assets/techstack/dark/tailwind-Dark.png"
+            ],
+            "language": [
+                "HTML",
+                "JavaScript",
+                "CSS"
+            ],
+            "API": [
+                ""
             ],
             "live": "https://sumzulfikar.github.io/Leap-Year/"
         }

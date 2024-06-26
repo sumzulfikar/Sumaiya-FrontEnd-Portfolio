@@ -27,17 +27,17 @@ const Contact = () => {
                 <h2 className="text-center text-3xl font-bold py-2">Contact me</h2>
                 <div className="relative  rounded-sm bg-white bg-clip-border text-gray-700 shadow-lg">
                     <form ref={form} onSubmit={handleSubmit} className="component mx-1 md:mx-10 ">
-                        <div class="mt-10 grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-6">
-                            <div class="sm:col-span-4">
+                        <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-6">
+                            <div className="sm:col-span-4">
                                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Name:</label>
                                 <input className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" type="text" id="name" name="user_name" />
                             </div>
-                            <div class="sm:col-span-4">
+                            <div className="sm:col-span-4">
                                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Email:</label>
                                 <input className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" type="text" id="email" name="user_email" />
                             </div>
                         </div>
-                        <div class="sm:col-span-4">
+                        <div className="sm:col-span-4">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Message:</label>
                             <textarea className="block w-52 text-sm font-medium leading-6 text-gray-900 p-6 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" type="text" id="message" name="message" />
                         </div>

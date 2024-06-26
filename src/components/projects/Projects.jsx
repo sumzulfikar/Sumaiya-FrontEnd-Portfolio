@@ -1,10 +1,11 @@
 import React from "react";
 import projectData from "../projects/projects.json"
-
+import RuledPostit from "./RuledPostit";
+import { Accordion, AccordionItem } from "@nextui-org/react";
 const Projects = () => {
     return (
         <section className="component  bg-white mx-1 md:mx-10 ">
-            <h2 className="text-center text-3xl   font-bold py-2">My Portfolio</h2>
+            <h2 className="text-center text-3xl   font-bold py-2">My Projects</h2>
 
             <div className="flex flex-row flex-wrap justify-center py-2 px-2 gap-4 bg-gray-50">
                 {projectData.myprojects.map((project) => (
@@ -16,6 +17,13 @@ const Projects = () => {
                                 {project.description}
                             </p>
                         </div>
+                        <div><Accordion>
+                            <AccordionItem key={project.index} aria-label="The Problem Solved" title="The Problem Solved">
+                                <RuledPostit userstory={project.userstory} />
+
+                            </AccordionItem></Accordion>
+                        </div>
+
                         <div className="px-6 pt-4 pb-2">
                             <div className="flex flex-wrap"><h3>Built with:</h3>
                                 {project.madeby.map((techtype, index) =>
