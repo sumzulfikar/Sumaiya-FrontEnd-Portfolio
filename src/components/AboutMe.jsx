@@ -33,12 +33,14 @@ const AboutMe = () => {
 
                     <div className="mt-4 rounded-xl col-span-8 bg-white shadow-lg">
                         <h2 className=" text-center text-3xl  font-bold py-2 basis-1/2">About Me</h2>
-                        <p className="text-wrap p-5"> <p className=" font-semibold">Putting User Needs First</p> Embarking on an exciting journey as a Front-End Developer, I am here to build products that customers love.
+                        <p className="text-wrap p-5">
+                            <span className=" font-semibold">Putting User Needs First</span> <br />
+                            Embarking on an exciting journey as a Front-End Developer, I am here to build products that customers love.
                             With a track record of leading teams to peak performance and driving business agility, I am now diving into a new adventure.
                             <br />
-                            <p className=" font-semibold">Empowering Users, Captivating Market</p>
+                            <span className=" font-semibold">Empowering Users, Captivating Market</span> <br />
                             I am passionate in crafting solutions that address real challenges and align with market demand.
-                            <p className=" font-semibold">Innovate with Impact</p>
+                            <span className=" font-semibold">Innovate with Impact</span> <br />
                             Join me in solving problems with user-centric approach, leveraging the latest  tech stack for product development.
                             <br />
                             <br />

@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import * as React from "react";
+import { useEffect } from "react";
 import "/src/index.css"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -10,6 +11,7 @@ import Projects from './components/projects/Projects';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import ReactGA from 'react-ga';
+import { NextUIProvider } from "@nextui-org/react";
 
 const gaTracking = "G-5J66D3HVRR";
 ReactGA.initialize(gaTracking);
@@ -21,19 +23,21 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Navbar />
-      <Mission />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/myskills" element={<TechSkills />} />
-        <Route path="/myprojects" element={<Projects />} />
-        <Route path="/contactme" element={<Contact />} />
+    <NextUIProvider>
+      <Router>
+        <Navbar />
+        <Mission />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/myskills" element={<TechSkills />} />
+          <Route path="/myprojects" element={<Projects />} />
+          <Route path="/contactme" element={<Contact />} />
 
-      </Routes>
-      <Footer />
-    </Router>
+        </Routes>
+        <Footer />
+      </Router>
+    </NextUIProvider>
   );
 
 
