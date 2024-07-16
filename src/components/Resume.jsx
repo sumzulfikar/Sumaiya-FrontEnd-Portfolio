@@ -15,7 +15,7 @@ const Resume = () => {
 
         })
     }
-    return (<button className="space-x-1.5 p-6 py-2 px-5 bg-gray-900 text-white rounded mx-10" onClick={onBtnClick}>Download my resume</button>);
+    return (<button className="space-x-1.5 p-6 py-2 px-5 bg-gray-900 text-white rounded mx-10" onClick={onBtnClick}>Resume</button>);
 
 
 

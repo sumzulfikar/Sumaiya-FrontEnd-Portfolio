@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import ReactGA from 'react-ga';
 import { NextUIProvider } from "@nextui-org/react";
-import RouteChangeTracker from './components/RouteChangeTracker'
+// import RouteChangeTracker from './components/RouteChangeTracker'
 const gaTracking = "G-5J66D3HVRR";
 ReactGA.initialize(gaTracking);
 
@@ -27,7 +27,7 @@ function App() {
       <Router>
         <Navbar />
         <Mission />
-        <RouteChangeTracker />
+        {/* <RouteChangeTracker /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />
