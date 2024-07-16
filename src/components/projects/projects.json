@@ -86,6 +86,33 @@
             "live": "https://sumzulfikar.github.io/CrowdSurf"
         },
         {
+            "id": "4",
+            "src": "assets/projects/etch-a-sketch.png",
+            "title": "Sketch and Shake",
+            "repo": "https://github.com/sumzulfikar/etch-a-sketch",
+            "userstory": "As a nostalgic user, I want a mobile/laptop Etch A Sketch with touch, mouse, or keyboard controls and a shake-to-erase function, bringing back the 80s with a digital twist!",
+            "solution": [
+                " Built a cross-platform Etch A Sketch app with keyboard (arrows), mouse (drag knobs), and touchscreen (swipe knobs) controls for drawing and a dedicated `shake` button (all devices) to clear..",
+                ""
+            ],
+            "madeby": [
+                "assets/techstack/dark/html5-Dark.png",
+                "assets/techstack/dark/js-Dark.png",
+                "assets/techstack/dark/css-Dark.png",
+                "assets/techstack/dark/gasp.png"
+            ],
+            "language": [
+                "HTML",
+                "JavaScript",
+                "GASP",
+                "CSS"
+            ],
+            "API": [
+                ""
+            ],
+            "live": "https://sumzulfikar.github.io/etch-a-sketch/"
+        },
+        {
             "id": "5",
             "src": "assets/projects/weather-dashboard.png",
             "title": "Weather Dashboard",
