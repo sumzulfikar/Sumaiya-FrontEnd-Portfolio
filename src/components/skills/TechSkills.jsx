@@ -10,17 +10,17 @@ const TechSkills = () => {
 
     return (
 
-        <section className="component bg-white mx-1 md:mx-10">
-            <div className="container mx-auto">
-                <h1 className="text-center text-3xl  font-bold py-2">My Skills</h1>
+        <section className=" mx-1 p-5" >
 
-            </div>
-            <section className=" flex justify-center mt-4">
-                <div className="grid gap-4 md:grid-cols-5  max-sm:grid-cols-2"> {myskills.map((skill) => (
-                    <TechCard key={skill.id} data={skill} />
-                ))
-                }</div></section>
-        </section>
+            <h1 className="text-center text-3xl  font-bold py-2">My Skills</h1>
+
+
+
+            <div className=" grid gap-4  lg:grid-cols-5 md:grid-cols-5  bg-gray-50 sm:grid-cols-3"> {myskills.map((skill) => (
+                <TechCard key={skill.id} data={skill} />
+            ))
+            }</div></section>
+
     );
 }
 

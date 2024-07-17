@@ -4,10 +4,10 @@ import RuledPostit from "./RuledPostit";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 const Projects = () => {
     return (
-        <section className="component  bg-white mx-1 md:mx-10 ">
+        <section className=" mx-1 p-10  m-1">
             <h2 className="text-center text-3xl   font-bold py-2">My Projects</h2>
 
-            <div className="flex flex-row flex-wrap justify-center py-2 px-2 gap-4 bg-gray-50">
+            <div className="grid gap-4  lg:grid-cols-3 md:grid-cols-3  bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
                 {projectData.myprojects.map((project) => (
                     <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg py-2 px-2">
                         <img className="w-full" src={project.src} alt={project.title} id="proj-img" />
