@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
 
         <div>
-            <div className="flex space-x-4 mx-1 md:mx-10 p-2">
+            <div className="flex ">
 
                 <Link to="/" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page" >Home</Link>
                 <Link to="/aboutme" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About me</Link>

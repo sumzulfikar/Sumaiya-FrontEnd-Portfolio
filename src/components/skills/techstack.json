@@ -55,16 +55,10 @@
             "alt": "Bootstrap"
         },
         {
-            "id": "10",
-            "type": "framework",
-            "src": "/assets/techstack/dark/materialize-css-logo.png",
-            "alt": "Materialize"
-        },
-        {
             "id": "11",
             "type": "integration",
             "src": "/assets/techstack/dark/api.jpg",
-            "alt": "3rd party API"
+            "alt": "APIs"
         }
     ]
 }

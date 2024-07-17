@@ -21,9 +21,9 @@ const Contact = () => {
     }
 
     return (
-        <section className="bg-white  py-4 px-4  sm:max-lg:">
+        <section className="bg-white p-10 mx-1">
 
-            <div className="container mx-auto px-[12px] md:px-24 xl:px-12 max-w-[1300px]">
+            <div className="container mx-auto px-[12px] md:px-24 xl:px-12 max-w-[1300px] align-middle">
                 <h2 className="text-center text-3xl font-bold py-2">Contact me</h2>
                 <div className="relative  rounded-sm bg-white bg-clip-border text-gray-700 shadow-lg">
                     <form ref={form} onSubmit={handleSubmit} className="component mx-1 md:mx-10 ">
