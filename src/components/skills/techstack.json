@@ -28,7 +28,7 @@
             "id": "5",
             "type": "language",
             "src": "/assets/techstack/dark/html5-Dark.png",
-            "alt": "HTML-5"
+            "alt": "HTML5"
         },
         {
             "id": "6",
@@ -40,7 +40,7 @@
             "id": "7",
             "type": "language",
             "src": "/assets/techstack/dark/css-Dark.png",
-            "alt": "CSS-3"
+            "alt": "CSS3"
         },
         {
             "id": "8",
@@ -59,6 +59,18 @@
             "type": "integration",
             "src": "/assets/techstack/dark/api.jpg",
             "alt": "APIs"
+        },
+        {
+            "id": "12",
+            "type": "animation",
+            "src": "/assets/techstack/dark/gasp.png",
+            "alt": "GASP Animation"
+        },
+        {
+            "id": "13",
+            "type": "animation",
+            "src": "/assets/techstack/dark/framer.png",
+            "alt": "Framer Animation"
         }
     ]
 }

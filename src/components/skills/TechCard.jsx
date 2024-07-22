@@ -1,6 +1,8 @@
 import React from "react";
 
 
+
+
 const TechCard = (props) => {
     const { id, src, alt } = props.data;
 
