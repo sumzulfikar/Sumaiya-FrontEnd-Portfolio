@@ -1,7 +1,9 @@
 import React from "react";
 import projectData from "../projects/projects.json"
+import TechSkills from "../skills/TechSkills";
 import RuledPostit from "./RuledPostit";
 import { Accordion, AccordionItem } from "@nextui-org/react";
+
 const Projects = () => {
     return (
         <section className=" mx-1 p-10  m-1">
@@ -10,7 +12,7 @@ const Projects = () => {
             <div className="grid gap-4  lg:grid-cols-3 md:grid-cols-3  bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
                 {projectData.myprojects.map((project) => (
                     <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg py-2 px-2">
-                        <img className="w-full" src={project.src} alt={project.title} id="proj-img" />
+                        <img className="w-full" src={project.src} alt={project.title} id="proj-img" tooltip={ } />
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2" id="pro-title">{project.title}</div>
                             <p className="text-gray-700 text-base" id="proj-desc">
