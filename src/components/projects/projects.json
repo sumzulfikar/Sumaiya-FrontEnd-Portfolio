@@ -58,7 +58,7 @@
             "live": "https://pathway-app.netlify.app/"
         },
         {
-            "id": "3",
+            "id": "4",
             "src": "assets/projects/crowdsurf.png",
             "title": "Event Search",
             "repo": "https://github.com/sumzulfikar/CrowdSurf",
@@ -86,14 +86,14 @@
             "live": "https://sumzulfikar.github.io/CrowdSurf"
         },
         {
-            "id": "4",
+            "id": "3",
             "src": "assets/projects/etch-a-sketch.png",
-            "title": "Sketch and Shake",
+            "title": "XketchY",
             "repo": "https://github.com/sumzulfikar/etch-a-sketch",
             "userstory": "As a nostalgic user, I want a mobile/laptop Etch A Sketch with touch, mouse, or keyboard controls and a shake-to-erase function, bringing back the 80s with a digital twist!",
             "solution": [
-                " Built a cross-platform Etch A Sketch app with keyboard (arrows), mouse (drag knobs), and touchscreen (swipe knobs) controls for drawing and a dedicated `shake` button (all devices) to clear..",
-                ""
+                " Built a cross-platform sketching app with keyboard (arrows), mouse (drag knobs), and touchscreen (swipe knobs) controls for drawing and a dedicated `Erase` button (all devices) to clear..",
+                "Users able to save their pictures so that they are not lost!"
             ],
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
@@ -110,7 +110,7 @@
             "API": [
                 ""
             ],
-            "live": "https://sumzulfikar.github.io/etch-a-sketch/"
+            "live": "https://xketchy.netlify.app/"
         },
         {
             "id": "5",
