@@ -6,21 +6,22 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 
 const Projects = () => {
     return (
-        <section className=" mx-1 p-10  m-1">
+        <section className=" mx-1 p-0 md:p-10">
             <h2 className="text-center text-3xl   font-bold py-2">My Projects</h2>
 
-            <div className="grid gap-4  lg:grid-cols-3 md:grid-cols-3  bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
+            <div className="grid gap-4  lg:grid-cols-4 md:grid-cols-3  bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
                 {projectData.myprojects.map((project) => (
                     <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg py-2 px-2">
-                        <img className="w-full" src={project.src} alt={project.title} id="proj-img" tooltip={project.src} />
+                        <div className="font-bold text-xl mb-2 align-middle" id="pro-title">{project.title}</div>
+                        <img className="h-30" src={project.src} alt={project.title} id="proj-img" tooltip={project.src} />
                         <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2" id="pro-title">{project.title}</div>
                             <p className="text-gray-700 text-base" id="proj-desc">
                                 {project.description}
                             </p>
                         </div>
                         <div><Accordion>
-                            <AccordionItem key={project.index} aria-label="The Problem Solved" title="The Problem Solved">
+                            <AccordionItem key={project.index} aria-label="User Story" className="text-lg font-medium text-gray-900" title="User Story:">
+
                                 <RuledPostit userstory={project.userstory} />
 
                             </AccordionItem></Accordion>
