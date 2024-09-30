@@ -10,13 +10,13 @@ const TechSkills = () => {
 
     return (
 
-        <section className=" mx-1 p-5" >
+        <section className=" mx-1" >
 
             <h1 className="text-center text-3xl  font-bold py-2">My Skills</h1>
 
 
 
-            <div className=" grid gap-4  lg:grid-cols-5 md:grid-cols-5  bg-gray-50 sm:grid-cols-3"> {myskills.map((skill) => (
+            <div className=" grid  lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-1  bg-gray-50 "> {myskills.map((skill) => (
                 <TechCard key={skill.id} data={skill} />
             ))
             }</div></section>

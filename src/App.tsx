@@ -10,6 +10,7 @@ import TechSkills from './components/skills/TechSkills';
 import Projects from './components/projects/Projects';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import Resume from './components/Resume';
 import ReactGA from 'react-ga';
 import { NextUIProvider } from "@nextui-org/react";
 // import RouteChangeTracker from './components/RouteChangeTracker'
@@ -33,6 +34,7 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/myskills" element={<TechSkills />} />
           <Route path="/myprojects" element={<Projects />} />
+          <Route path="/myresume" element={<Resume />} />
           <Route path="/contactme" element={<Contact />} />
 
         </Routes>
