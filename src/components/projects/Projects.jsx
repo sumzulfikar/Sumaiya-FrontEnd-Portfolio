@@ -6,13 +6,13 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 
 const Projects = () => {
     return (
-        <section className=" mx-1 p-0 md:p-10">
-            <h2 className="text-center text-3xl   font-bold py-2">My Projects</h2>
+        <section className=" mx-1 p-0 md:p-10  bg-gray-100  ">
+            <h2 className="text-center text-3xl font-bold py-2">My Projects</h2>
 
-            <div className="grid gap-4  lg:grid-cols-4 md:grid-cols-3  bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
+            <div className="grid gap-4  lg:grid-cols-4 md:grid-cols-3 content-center bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
                 {projectData.myprojects.map((project) => (
                     <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg py-2 px-2">
-                        <div className="font-bold text-xl mb-2 align-middle" id="pro-title">{project.title}</div>
+                        <div className="font-bold text-xl mb-2 text-center" id="pro-title">{project.title}</div>
                         <img className="h-30" src={project.src} alt={project.title} id="proj-img" tooltip={project.src} />
                         <div className="px-6 py-4">
                             <p className="text-gray-700 text-base" id="proj-desc">

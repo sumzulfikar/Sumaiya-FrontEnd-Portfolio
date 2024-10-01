@@ -3,7 +3,7 @@
         {
             "id": "1",
             "src": "assets/projects/digitalservices.PNG",
-            "title": "Website Migration - Modernisation & Performance Boost",
+            "title": "Modern Website",
             "repo": "https://github.com/onirbanltd/corporate-site",
             "userstory": "As a digital service provider, our current website isn't generating enough leads. We need to improve our online presence and make it easier for potential customers to find us. We'd like your help in optimizing our website for search engines and implementing strategies to capture leads more effectively.",
             "solution": [
@@ -31,7 +31,7 @@
         {
             "id": "2",
             "src": "assets/projects/pathway.png",
-            "title": "User-Friendly Job Search- Find Your Perfect Fit",
+            "title": "Job Search Engine",
             "repo": "https://github.com/sumzulfikar/Pathway-Application",
             "userstory": "As a jobseeker, I want a comprehensive job search platform that allows me to discover and apply for suitable positions efficiently. This platform should provide all the necessary information in one place, streamlining my job search process.",
             "solution": [
@@ -178,7 +178,7 @@
             "API": [
                 ""
             ],
-            "live": "https://sumzulfikar.github.io/Leap-Year/"
+            "live": "#"
         }
     ]
 }
