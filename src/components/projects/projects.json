@@ -140,8 +140,8 @@
             "src": "assets/projects/workdaysheduler.png",
             "title": "Work Day Scheduler",
             "repo": "https://github.com/sumzulfikar/Work-Day-Scheduler",
-            "userstory": "As an employee, I want to use an interactive task scheduler during business hours to help me organize my workload and prioritise tasks effectively, ultimately increasing my productivity.",
-            "solution": "An interactive task scheduler for employees during business hours so that they can manage their day effectively.",
+            "userstory": "An interactive task scheduler for employees during business hours so that they can manage their day effectively.",
+            "solution": "As an employee, I want to use an interactive task scheduler during business hours to help me organize my workload and prioritise tasks effectively, ultimately increasing my productivity.",
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
                 "assets/techstack/dark/jqueryDark.png",
@@ -162,8 +162,8 @@
             "src": "assets/projects/leapyear.png",
             "title": "Learn about Leap Year",
             "repo": "https://github.com/sumzulfikar/Leap-Year",
-            "userstory": "As a student, I want to learn about Leap Years and an interactive tool to easily determine whether a given year is a leap year",
-            "solution": "An fun tool to find out which years are Leap Years with a friendly leap year frog.",
+            "userstory": "An fun tool to find out which years are Leap Years with a friendly leap year frog.",
+            "solution": "As a student, I want to learn about Leap Years and an interactive tool to easily determine whether a given year is a leap year",
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
                 "assets/techstack/dark/js-Dark.png",

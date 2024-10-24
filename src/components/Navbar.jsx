@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import clsx from 'clsx';
+
 
 const Navbar = () => {
     // const [activeLink, setActiveLink] = useState('home');
