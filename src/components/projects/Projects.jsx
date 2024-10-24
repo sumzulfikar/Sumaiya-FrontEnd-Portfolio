@@ -6,7 +6,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 
 const Projects = () => {
     return (
-        <section className=" mx-1 p-0 md:p-10  bg-gray-100  ">
+        <section className=" mx-1 p-0  bg-gray-100  ">
             <h2 className="text-center text-3xl font-bold py-2">My Projects</h2>
 
             <div className="grid gap-4  lg:grid-cols-4 md:grid-cols-3 content-center bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
@@ -39,11 +39,11 @@ const Projects = () => {
                         </div>
 
 
-                        <a href={project.repo} className="px-3 md:px-4 py-1 bg-black text-white rounded space-x-11">GitHub Repo</a>
+                        <a href={project.repo} className="px-3 md:px-4 py-1 bg-black text-stone-50 rounded space-x-11">GitHub Repo</a>
                         <span> </span>
                         <span> </span>
                         <span> </span>
-                        <a href={project.live} className="px-3 md:px-4 py-1 bg-gray-900 text-white rounded space-x-11">Live Url</a></div>
+                        <a href={project.live} className="px-3 md:px-4 py-1 bg-gray-900 text-stone-50 rounded space-x-11">Live Url</a></div>
                 ))}
             </div>
         </section>

@@ -16,7 +16,7 @@ const TechSkills = () => {
 
 
 
-            <div className=" grid  lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-3 gap-1  bg-gray-50 "> {myskills.map((skill) => (
+            <div className=" grid  lg:grid-cols-5 md:grid-cols-5 xs:grid-cols-3 gap-1  bg-gray-50 "> {myskills.map((skill) => (
                 <TechCard key={skill.id} data={skill} />
             ))
             }</div></section>
