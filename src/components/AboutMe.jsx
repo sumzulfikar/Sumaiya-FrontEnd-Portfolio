@@ -20,11 +20,15 @@ const AboutMe = () => {
                     <div className="mx-1 p-2 m-1 rounded-xl col-span-5  text-gray-900 bg-white shadow-lg text-justify">
                         <h2 className=" text-center text-3xl  font-bold basis-1/2">About Me</h2>
                         {/* <h3 className=" font-semibold ">User-Centric Focus</h3> */}
-                        <p className="text-wrap pt-2">I'm a Front-End Developer. I create user-centric web apps that delight users and drive results. In the past, I have worked within engineering teams from designing prototypes, testing, to helping teams grow. I use user engagement, quality, and efficient development to craft beautiful, intuitive applications that are delivered on time. </p>
-                        <br />
+                        <p className="text-wrap pt-2">I'm a Front-End Developer. I bring in user focused approach to problem solving and developing solutions that meet customer and market needs. In the past, I have worked within engineering teams designing prototypes, testing, to helping teams build good quality software using Ken Beck's:<br />
+                        </p>
+                        <blockquote>
+                            <p className="font-semibold text-gray-900 text-center pt-2"> Make it Work | Make it Right | Make it Fast.</p>
+                        </blockquote>
 
-                        <h3 className=" font-semibold ">Ready to Build Something Remarkable (and Maybe Even a Little Fun)?</h3>
-                        <p className="text-wrap pt-4">I love contributing to all stages of the development lifecycle to solve user problem. Whether it's breathing new life into existing web applications, implementing innovative features, or building entirely new products from the ground up, I'm passionate about tackling challenges and delivering exceptional results.</p>
+
+                        <h3 className=" font-semibold pt-4">Ready to Build Something Remarkable (and Maybe Even a Little Fun)?</h3>
+                        <p className="text-wrap pt-2">I love contributing to all stages of the development lifecycle to solve user problems. Whether it's breathing new life into existing web applications, implementing new features, or building entirely new products from scratch; I am ready to dive right in and deliver exceptional results.</p>
 
 
                         <p className="text-wrap divide-y divide-black pt-2" >Get in touch! Let's chat about your current needs and how I can be a valuable asset to your team.</p>
