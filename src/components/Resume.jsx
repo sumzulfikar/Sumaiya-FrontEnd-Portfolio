@@ -68,7 +68,7 @@
 //                         ))}
 //                     </Document>
 //                 </div>)}
-//             <button className="px-5 py-2 bg-gray-900 text-white rounded-full" disabled={currentPage === 1} onClick={prevPage}>Prev Page</button>
+//             <button className="px-5 py-2 bg-gray-900 text-stone-50 rounded-full" disabled={currentPage === 1} onClick={prevPage}>Prev Page</button>
 //             <button disabled={currentPage === pageCount} onClick={nextPage}>Next Page</button>
 
 //         </div >

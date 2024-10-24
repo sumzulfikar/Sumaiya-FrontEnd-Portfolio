@@ -1,37 +1,44 @@
 import React from "react";
-import Pic from "../profilepic/my-pic.png"
+import Pic from "../profilepic/my-pic.png";
+import { SocialIcon } from 'react-social-icons/component';
+import 'react-social-icons/linkedin';
+import 'react-social-icons/email';
+import 'react-social-icons/github';
+import 'react-social-icons/x';
+import 'react-social-icons/mailto';
+
 // import { useState } from "react";
 // import { Document, Page } from 'react-pdf';
 // import MyResume from '../resume/SZulfikar_CV_FrontEnd_Dev_latest.pdf';
 
 
 const Profile = () => {
-  const openGithub = () => {
-    const gitUrl = "https://github.com/sumzulfikar";
-    window.open(gitUrl, "_blank");
-  }
-  const openLinkedin = () => {
-    const liUrl = "https://www.linkedin.com/in/sumaiya-zulfikar/";
-    window.open(liUrl, "_blank");
-  }
 
   return (
     <>
-      <div className=" flex flex-col rounded-xl bg-clip-border text-gray-700 shadow-md  md:basis-full">
-        <div className=" flex justify-center">
-          <img src={Pic} alt="profile-picture" className="m-4 rounded-full  h-20  lg:h-40" />
+      <div class=" flex flex-row sm:flex-col rounded-xl bg-clip-border text-gray-900 shadow-md md:basis-full">
+        <div class="flex justify-center">
+          <img src={Pic} alt="My smiling picture" label="My profile picture" class="m-4 rounded-full md:h-30 h-36" />
         </div>
-        <div className="p-6 text-center">
-          <h4 className="mb-2 block  text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+
+        <div class="p-4 sm:p-2 gap-2 text-center flex flex-col">
+          <h2 class="text-2xl font-semibold leading-snug  text-blue-gray-900 antialiased">
             Sumaiya Zulfikar
-          </h4>
-          <p className="block bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-text text-base font-medium leading-relaxed text-transparent antialiased">
+          </h2>
+          <h3 class="text-gray-900 text-base font-medium leading-relaxed antialiased">
             Front End Developer
-          </p>
-          <button className="px-5 py-2 bg-gray-900 text-white rounded-full" onClick={openGithub}>Github</button>
-          <button className="px-4 py-2 bg-gray-900 text-white rounded-full mx-5" onClick={openLinkedin}>Linkedin</button>
+          </h3>
+
+          <div class="flex flex-row gap-2 justify-center mt-4">
+
+            <SocialIcon target="_blank" url="https://www.linkedin.com/in/sumaiya-zulfikar/" label="Linkedin link" bgColor="gray-500" style={{ height: 25, width: 25 }} />
+            <SocialIcon target="_blank" url="https://github.com/sumzulfikar" bgColor="gray-500" label="gitHub link" style={{ height: 25, width: 25 }} />
+            <SocialIcon target="_blank" url="https://x.com/Sumaiyaz_here" label="Twitter/x.com link" bgColor="gray-500" style={{ height: 25, width: 25 }} />
+            <SocialIcon target="_blank" url="mailto:sumaiyaz.here@gmail.com" label="Email address" bgColor="gray-500" style={{ height: 25, width: 25 }} />
+          </div>
         </div>
       </div>
+
     </>
 
 
