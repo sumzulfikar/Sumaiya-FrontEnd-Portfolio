@@ -10,7 +10,7 @@ const TechCard = (props) => {
         < >
 
             <div className=" w-full p-2">
-                <div key={id} className="relative group flex flex-col rounded-xl  bg-white bg-clip-border text-gray-700 shadow-md ">
+                <div key={id} className="relative group flex flex-col rounded-xl  bg-white bg-clip-border text-gray-800 shadow-md ">
                     
                         <div className="">
                             <p className="mb-2 pt-2  text-center text-lg font-semibold">
