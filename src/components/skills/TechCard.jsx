@@ -13,19 +13,19 @@ const TechCard = (props) => {
                 <div key={id} className="relative group flex flex-col rounded-xl  bg-white bg-clip-border text-gray-700 shadow-md ">
                     
                         <div className="">
-                            <p className="mb-2   text-center text-lg font-semibold">
+                            <p className="mb-2 pt-2  text-center text-lg font-semibold">
                                 {alt}
                             </p>
                             {/*  z-5 w-full p-2 */}
                         </div>
-                        <div className="block">
+                        
                             <div className=" justify-end">
-                                <img src={src} className="m-auto object-scale-down  h-16 w-16 hover:animate-bounce" alt=`${alt} logo` title={alt} loading="lazy" cursor-default />
+                                <img src={src} className="m-2 object-scale-down  h-16 w-16 hover:animate-bounce" alt=`${alt} logo` title={alt} loading="lazy" cursor-default />
                             </div>
                         </div>
 
                     
-                </div>
+                
             </div>
         </>
 
