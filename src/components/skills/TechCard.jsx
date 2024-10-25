@@ -20,7 +20,7 @@ const TechCard = (props) => {
                         </div>
                         <div className="block">
                             <div className=" justify-end">
-                                <img src={src} className="m-auto object-scale-down  h-16 w-16 hover:animate-bounce" alt={alt} title={alt} loading="lazy" />
+                                <img src={src} className="m-auto object-scale-down  h-16 w-16 hover:animate-bounce" alt=`${alt} logo` title={alt} loading="lazy" />
                             </div>
                         </div>
 
