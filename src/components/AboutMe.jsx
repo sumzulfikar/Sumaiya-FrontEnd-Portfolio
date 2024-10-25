@@ -20,7 +20,7 @@ const AboutMe = () => {
                     <div className="mx-1 p-2 m-1 rounded-xl col-span-5  text-gray-900 bg-white shadow-lg text-justify">
                         <h2 className=" text-center text-3xl  font-bold basis-1/2">About Me</h2>
                         {/* <h3 className=" font-semibold ">User-Centric Focus</h3> */}
-                        <p className="text-wrap pt-2">I'm a Front-End Developer. I bring in user focused approach to problem solving and developing solutions that meet customer and market needs. In the past, I have worked within engineering teams designing prototypes, testing, and helping teams build good quality software using Ken Beck's:<br />
+                        <p className="text-wrap pt-2">I am a Front-End Developer. I bring in user focused approach to problem solving and developing solutions that meet customer and market needs. In addition to coding, I have worked within engineering teams designing prototypes, testing, and helping teams build good quality software using Ken Beck's:<br />
                         </p>
                         <blockquote>
                             <p className="font-semibold text-gray-900 text-center pt-2"> Make it Work | Make it Right | Make it Fast.</p>
