@@ -11,23 +11,23 @@ const Projects = () => {
 
             <div className="grid gap-4 rounded-xl lg:grid-cols-4 md:grid-cols-3 content-center bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
                 {projectData.myprojects.map((project) => (
-                    <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg py-2 px-2">
+                    <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg pt-2 px-2">
                         <div className="font-bold text-xl mb-2 text-center" id="pro-title">{project.title}</div>
                         <img className="h-30" src={project.src} alt={project.title} id="proj-img" tooltip={project.src} />
-                        <div className="px-6 py-4">
+                        <div className="px-6 pt-2">
                             <p className="text-gray-700 text-base" id="proj-desc">
                                 {project.description}
                             </p>
                         </div>
                         <div><Accordion>
-                            <AccordionItem key={project.index} aria-label="User Story" className="text-lg font-medium text-gray-900" title="User Story:">
+                            <AccordionItem key={project.index} aria-label="User Story" className="text-lg font-medium text-gray-900 pt-2" title="User Story:">
 
                                 <RuledPostit userstory={project.userstory} />
 
                             </AccordionItem></Accordion>
                         </div>
 
-                        <div className="px-6 pt-4 pb-2">
+                        <div className="px-2 pt-2 pb-2">
                             <div className="flex flex-wrap"><h3>Built with:</h3>
                                 {project.madeby.map((techtype, index) =>
                                     <img key={index} src={techtype} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 object-scale-down h-16 w-16" id="proj-techstack" alt={`Made by ${project.title}`} />

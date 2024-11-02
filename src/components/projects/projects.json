@@ -162,7 +162,7 @@
             "src": "assets/projects/leapyear.png",
             "title": "Learn about Leap Year",
             "repo": "https://github.com/sumzulfikar/Leap-Year",
-            "userstory": "An fun tool to find out which years are Leap Years with a friendly leap year frog.",
+            "userstory": "An fun tool to find out which years are Leap Years with a friendly frog.",
             "solution": "As a student, I want to learn about Leap Years and an interactive tool to easily determine whether a given year is a leap year",
             "madeby": [
                 "assets/techstack/dark/html5-Dark.png",
