@@ -31,10 +31,10 @@ const Profile = () => {
 
           <div class="flex flex-row gap-2 justify-center mt-4">
 
-            <SocialIcon target="_blank" url="https://www.linkedin.com/in/sumaiya-zulfikar/" label="Linkedin link" bgColor="gray-500" style={{ height: 25, width: 25 }} />
-            <SocialIcon target="_blank" url="https://github.com/sumzulfikar" bgColor="gray-500" label="gitHub link" style={{ height: 25, width: 25 }} />
-            <SocialIcon target="_blank" url="https://x.com/Sumaiyaz_here" label="Twitter/x.com link" bgColor="gray-500" style={{ height: 25, width: 25 }} />
-            <SocialIcon target="_blank" url="mailto:sumaiyaz.here@gmail.com" label="Email address" bgColor="gray-500" style={{ height: 25, width: 25 }} />
+            <SocialIcon target="_blank" url="https://www.linkedin.com/in/sumaiya-zulfikar/" label="Linkedin link" bgColor="gray-500" style={{ height: 45, width: 45 }} />
+            <SocialIcon target="_blank" url="https://github.com/sumzulfikar" bgColor="gray-500" label="gitHub link" style={{ height: 45, width: 45 }} />
+            <SocialIcon target="_blank" url="https://x.com/Sumaiyaz_here" label="Twitter/x.com link" bgColor="gray-500" style={{ height: 45, width: 45 }} />
+            <SocialIcon target="_blank" url="mailto:sumaiyaz.here@gmail.com" label="Email address" bgColor="gray-500" style={{ height: 45, width: 45 }} />
           </div>
         </div>
       </div>

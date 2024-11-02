@@ -9,7 +9,7 @@ const Projects = () => {
         <section className=" mx-1 p-0  bg-gray-100  ">
             <h2 className="text-center text-3xl font-bold py-2">My Projects</h2>
 
-            <div className="grid gap-4  lg:grid-cols-4 md:grid-cols-3 content-center bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
+            <div className="grid gap-4 rounded-xl lg:grid-cols-4 md:grid-cols-3 content-center bg-gray-50 sm:grid-cols-2  xs:grid-cols-2">
                 {projectData.myprojects.map((project) => (
                     <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg pt-2 px-2">
                         <div className="font-bold text-xl mb-2 text-center" id="pro-title">{project.title}</div>
