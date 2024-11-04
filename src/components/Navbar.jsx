@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
-    // const [activeLink, setActiveLink] = useState('home');
+    // const [activeLink, setActiveLink] = useState('Menu');
 
     // const handleLinkClick = (link) => {
     //     setActiveLink(link);
@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
 
-            <Link to="/" className="bg-gray-900 text-stone-50 rounded-md px-3 py-2 text-sm sm:text-xs font-medium " aria-current="page" >Home</Link>
+            <Link to="/" className="bg-gray-900 text-stone-50 rounded-md px-3 py-2 text-sm sm:text-xs font-medium " aria-current="page" >Menu</Link>
 
             <Link to="/aboutme" className="text-gray-800 hover:bg-gray-700 hover:text-stone-50 rounded-md px-3 py-2 text-sm font-medium">About me</Link>
 

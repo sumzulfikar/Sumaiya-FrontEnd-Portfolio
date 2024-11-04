@@ -9,7 +9,7 @@ import AboutMe from './components/AboutMe';
 import TechSkills from './components/skills/TechSkills';
 import Projects from './components/projects/Projects';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Menu from './components/Menu';
 // import Resume from './components/Resume';
 import ReactGA from 'react-ga';
 import { NextUIProvider } from "@nextui-org/react";
@@ -30,7 +30,7 @@ function App() {
         <Mission />
         {/* <RouteChangeTracker /> */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Menu />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/myskills" element={<TechSkills />} />
           <Route path="/myprojects" element={<Projects />} />
