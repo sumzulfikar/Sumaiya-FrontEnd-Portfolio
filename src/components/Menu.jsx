@@ -1,8 +1,8 @@
 import React from "react";
 import Contact from './Contact.jsx';
-import AboutMe from './AboutMe';
+import AboutMe from './AboutMe.jsx';
 import TechSkills from './skills/TechSkills.jsx';
-import Projects from './projects/Projects';
+import Projects from './projects/Projects.jsx';
 // import Resume from "./Resume.jsx";
 
 function Menu() {
