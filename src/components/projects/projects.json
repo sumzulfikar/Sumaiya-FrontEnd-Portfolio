@@ -2,6 +2,34 @@
     "myprojects": [
         {
             "id": "1",
+            "src": "assets/projects/ecomm.png",
+            "title": "Ecommerce Site",
+            "repo": "https://github.com/sumzulfikar/drip-maxima",
+            "userstory": "A modern ecommerce site for retail.",
+            "solution": [
+                "Conduct a website audit to analyze user experience, search engine optimization, and identify areas for improvement.",
+                "Develop a modern website design that is visually appealing, user-friendly, and responsive across all devices.",
+                "Upgrade the company website from outdated legacy WordPress to a modern platform built with Next.js for improved performance boost and hosted on Vercel for seamless deployment and scalability."
+            ],
+            "madeby": [
+                "assets/techstack/dark/nextjs-Light.png",
+                "assets/techstack/dark/typescript-Dark.png",
+                "assets/techstack/dark/tailwind-Dark.png",
+                "assets/techstack/dark/nodejs-Dark.png"
+            ],
+            "language": [
+                "NEXT.js",
+                "TypeScript",
+                "Tailwind",
+                "Node.js"
+            ],
+            "API": [
+                ""
+            ],
+            "live": "https://dripmaxima.vercel.app/"
+        },
+        {
+            "id": "2",
             "src": "assets/projects/digitalservices.PNG",
             "title": "Modern Website",
             "repo": "https://github.com/onirbanltd/corporate-site",
@@ -29,7 +57,7 @@
             "live": "https://onirban.co.uk/"
         },
         {
-            "id": "2",
+            "id": "3",
             "src": "assets/projects/pathway.png",
             "title": "Job Search Engine",
             "repo": "https://github.com/sumzulfikar/Pathway-Application",
@@ -86,9 +114,9 @@
             "live": "https://sumzulfikar.github.io/CrowdSurf"
         },
         {
-            "id": "3",
+            "id": "5",
             "src": "assets/projects/etch-a-sketch.png",
-            "title": "XketchY",
+            "title": "Digital Drawing App",
             "repo": "https://github.com/sumzulfikar/etch-a-sketch",
             "userstory": "As a nostalgic user, I want a mobile/laptop Etch A Sketch with touch, mouse, or keyboard controls and a shake-to-erase function, bringing back the 80s with a digital twist!",
             "solution": [
@@ -113,7 +141,7 @@
             "live": "https://xketchy.netlify.app/"
         },
         {
-            "id": "5",
+            "id": "6",
             "src": "assets/projects/weather-dashboard.png",
             "title": "Weather Dashboard",
             "repo": "https://github.com/sumzulfikar/Weather_Dashboard",
@@ -134,51 +162,6 @@
                 "OpenWeather"
             ],
             "live": "https://sumzulfikar.github.io/Weather_Dashboard/"
-        },
-        {
-            "id": "7",
-            "src": "assets/projects/workdaysheduler.png",
-            "title": "Work Day Scheduler",
-            "repo": "https://github.com/sumzulfikar/Work-Day-Scheduler",
-            "userstory": "An interactive task scheduler for employees during business hours so that they can manage their day effectively.",
-            "solution": "As an employee, I want to use an interactive task scheduler during business hours to help me organize my workload and prioritise tasks effectively, ultimately increasing my productivity.",
-            "madeby": [
-                "assets/techstack/dark/html5-Dark.png",
-                "assets/techstack/dark/jqueryDark.png",
-                "assets/techstack/dark/css-Dark.png"
-            ],
-            "language": [
-                "HTML",
-                "jQuery",
-                "CSS"
-            ],
-            "API": [
-                ""
-            ],
-            "live": "https://sumzulfikar.github.io/Work-Day-Scheduler/"
-        },
-        {
-            "id": "6",
-            "src": "assets/projects/leapyear.png",
-            "title": "Learn about Leap Year",
-            "repo": "https://github.com/sumzulfikar/Leap-Year",
-            "userstory": "An fun tool to find out which years are Leap Years with a friendly frog.",
-            "solution": "As a student, I want to learn about Leap Years and an interactive tool to easily determine whether a given year is a leap year",
-            "madeby": [
-                "assets/techstack/dark/html5-Dark.png",
-                "assets/techstack/dark/js-Dark.png",
-                "assets/techstack/dark/css-Dark.png",
-                "assets/techstack/dark/tailwind-Dark.png"
-            ],
-            "language": [
-                "HTML",
-                "JavaScript",
-                "CSS"
-            ],
-            "API": [
-                ""
-            ],
-            "live": "#"
         }
     ]
 }
